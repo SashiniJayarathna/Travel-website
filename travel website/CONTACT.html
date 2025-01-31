@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelCove.CONTACT</title>
+    <link rel="stylesheet" href="CONTACT.css">  
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nav">
+
+            <div class="logo"><b><big>t</big>ravel<span>Cove.</b></span></div>
+
+            <div class="menu">
+                <a class="active" href="CONTACT.html">contact</a>
+                <a href="ABOUT.html">about</a>
+                <a href="DESTINATIONS.html">destinations</a>
+                <a href="HOME.html">home</a>
+            </div>
+
+        </div>
+        
+    <div class="fcontainer">
+        <form action="./index.html" method="get">
+    
+            <fieldset class="fieldset">
+                <legend class="legend"> Contact Us </legend>
+                
+                <label for="status">Status</label>
+                <select>
+                    <option value="mr">Mr</option>
+                    <option value="miss">Miss</option>
+                    <option value="mrs">Mrs</option>
+                </select><br>
+                
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Your First Name & Last Name.." autofocus autocomplete="on">
+                <br>
+    
+                <label for="date">Date of Birth</label>
+                <input type="date" max=2023-01-01 min="1940-01-01" >
+                <br>
+    
+                <label for="age">Age</label>
+                <input type="number" max="100" min="0"id="age"placeholder="Your Age.." autofocus >
+                <br>
+    
+                <label for="Gender">Gender</label><br>
+                <div class="section">
+                <input type="radio" value="male" name="gender">Male
+                <input type="radio" value="female" name="gender">Fmale
+                <input type="radio" value="other" name="gender">Other<br>
+                <br>
+                </div>
+                
+                <label for="Marital Status">Marital Status</label><br>
+                <div class="section">
+                <input type="radio" value="Married" name="Marital Status">Married
+                <input type="radio" value="Unmarried" name="Marital Status">Unmarried<br>
+                <br>
+                </div>
+    
+                <label for="Language">Language</label><br>
+                <div class="section">
+                <input type="checkbox">Sinhala<br>
+                <input type="checkbox">Tamil<br>
+                <input type="checkbox">English<br>
+                <br>
+                </div>
+    
+                <label for="Country">Country</label>
+                <input type="text" list="datalist" placeholder="Your Country.." autofocus>
+                <datalist id="datalist">
+                    <option value="Afghanistan"></option>
+                    <option value="Argentina"></option>
+                    <option value="Australia"></option>
+                    <option value="Bangladesh"></option>
+                    <option value="Bhutan"></option>
+                    <option value="Canada"></option>
+                    <option value="China"></option>
+                    <option value="Denmark"></option>
+                    <option value="Egypt"></option>
+                    <option value="France"></option>
+                    <option value="Germany"></option>
+                    <option value="India"></option>
+                    <option value="Iraq"></option>
+                    <option value="Italy"></option>
+                    <option value="Japan"></option>
+                    <option value="Maldives"></option>
+                    <option value="Mexico"></option>
+                    <option value="New Zealand"></option>
+                    <option value="Netherlands"></option>
+                    <option value="Pakistan"></option>
+                    <option value="Russia"></option>
+                    <option value="South Korea"></option>
+                    <option value="Sri Lanka"></option>
+                    <option value="Thailand"></option>
+                    <option value="United Kingdom"></option>
+                    <option value="United States of America"></option>
+                    <option value="Ukraine"></option>
+                    <option value="Vietnam"></option>
+                    <option value="Yemen"></option>
+                    <option value="Zimbabwe"></option>
+                </datalist>
+                <br>
+    
+                <label for="Districts">District</label>
+                <select>
+                    <option value="Ampara">Ampara</option> 
+                    <option value="Anuradhapura">Anuradhapura</option>
+                    <option value="Badulla">Badulla</option>
+                    <option value="Batticaloa">Batticaloa</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Galle">Galle</option>
+                    <option value="Gampaha">Gampaha</option>
+                    <option value="Hambantota">Hambantota</option>
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Kegalle">Kegalle</option>
+                    <option value="Kilinochchi">Kilinochchi</option>
+                    <option value="Kurunegala">Kurunegala</option>
+                    <option value="Mannar">Mannar</option>
+                    <option value="Matale">Matale</option>
+                    <option value="Matara">Matara</option>
+                    <option value="Monaragala">Monaragala</option>
+                    <option value="Mullaitivu">Mullaitivu</option>
+                    <option value="Nuwara Eliya">Nuwara Eliya</option>
+                    <option value="Polonnaruwa">Polonnaruwa</option>
+                    <option value="Puttalam">Puttalam</option>
+                    <option value="Ratnapura">Ratnapura</option>
+                    <option value="Trincomalee">Trincomalee</option>
+                    <option value="Vavuniya">Vavuniya</option>
+                </select>
+                <br>
+    
+                <label for="NIC"><abbr title="National Identification Card">NIC </abbr>No</abbr></label>
+                <input type="text" id="NIC" maxlength="12" placeholder="Your NIC NO.." autofocus autocomplete="on">
+                <br>
+    
+                <label for="teliphone no">Teliphone No</label>
+                <input type="tel" maxlength="11" value="+94" autocomplete="on">
+                <br>
+    
+                <label for="email">E-mail</label>
+                <input type="email" id="email" autocomplete="on" placeholder="Your E-mail.." autofocus>
+                <br>
+                        
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="Your Password.." autofocus >
+                <br>
+    
+                <h3>Interesting</h3>  
+                <div class="section">
+                <label for="interest">Camping</label>
+                <input type="range" id="interest" min="0" max="100">
+                <br> 
+                <label for="interest">Rock Climbing</label>
+                <input type="range" id="interest" min="0" max="100">
+                <br>
+                <label for="interest">Whitewater Rafting</label>
+                <input type="range" id="interest" min="0" max="100">
+                <br>
+                <label for="interest">Cycling + Mountain Biking</label>
+                <input type="range" id="interest" min="0" max="100">
+                </div>
+                <br>
+    
+                <label for="subject">Subject</label>
+                <br>
+                <textarea id="subject" placeholder="Please input your comments.."></textarea>
+                <br>
+    
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <br><br>
+    
+                <label for="search">Search</label>
+                <input type="search" placeholder="Search hear.." autofocus autocomplete="on">
+    
+            </fieldset>  
+            
+        </form>
+    </div>
+    
+
+        <footer>
+            <p>&copy; 2022 Sri Lanka, Badulla <b><big>t</big>ravelCove.</b></p>
+            <p>All rights reserved </p>
+            <p><small>travelCove.@gmail.com</small></p>
+        </footer>
+
+    </div>
+
+</body> 
+
+</html>

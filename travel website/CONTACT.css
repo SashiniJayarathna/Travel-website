@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-image: url("./image/1 (4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh ;
+    width: 100%;
+}
+
+.nav {
+    background-color: black;
+    opacity: 0.7;  
+    width: 100%;
+    left:0;
+    top: 0;  
+    position: fixed;  
+  }
+
+.nav a{ 
+    color: aquamarine;
+    padding: 14px 8px;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    float: right;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.nav a.active {
+    background-color:  aquamarine;
+    color: black;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    padding: 7px 4px;
+    float: left;
+}
+
+.logo span {
+    color: aquamarine;
+}
+
+.main{
+    color:white; 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+        
+input[type=text],input[type=search],input[type=date],input[type=number],input[type=email],input[type=password],input[type=tel], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkgreen;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit],input[type=reset] {
+    background-color:  darkslategrey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover,input[type=reset]:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  input[type=submit]:active,input[type=reset]:active {
+    background-color:  #042e06;
+    color: white;
+  }
+  
+  .legend{
+    font-size: 40px;
+    color:darkslategrey;
+    padding: 20px;
+    align:left;
+  }
+  
+  .fcontainer {
+    border-radius: 5px;
+    background-color: darkgray;
+    padding : 100px;
+   
+  }
+  .fieldset{
+      border: 2px solid darkslategrey;
+      padding:100px;
+      background-color:  lightgray;
+  }
+  .section {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid darkslategrey;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color:white;
+}  
+
+footer{
+    position: fixed;
+    bottom:0;
+    background-color:black;
+    opacity: 0.7;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p{
+    color:aquamarine;
+
+}
